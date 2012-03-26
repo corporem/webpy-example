@@ -1,5 +1,5 @@
 '''
-Created on Mar 24, 2012
+Created on Mar 26, 2012
 
 @author: sotuzun
 '''
@@ -21,7 +21,7 @@ class Index:
 	
 	def POST(self):
 		try:
-			data = web.input(op1=0, op2=0);
+			data = web.input();
 			sum_tot = int(data.op1) + int(data.op2)
 			return render.result(data.op1, data.op2, sum_tot)
 		except:
