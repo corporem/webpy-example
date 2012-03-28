@@ -3,7 +3,7 @@ Web.py Example
 --------------
 
 This simple project is built with web.py to demonstrate how easy web development is. In order to run this project, 
-you must have pyhton and web.py framework installed in your local environment.
+you must have python and web.py framework installed in your local environment.
 
 To install web.py:
 	- http://webpy.org/
